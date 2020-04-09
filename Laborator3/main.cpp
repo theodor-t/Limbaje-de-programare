@@ -242,10 +242,15 @@ v[0] = k;
 afisare_vector(v, n);
 return 1;
 }
-void onRoute(int v[], int n, int count, int ora){
-for (int i = 0; i < n; i++)
-if (v[i] == ora) { count++;}
-cout <<"Nr. de trenuri la ora anumita: " << count;
+void onRoute(int v[], int n){
+int count,ora;
+for (int i = 0; i < n; i++) {
+if (v[i] == ora) {
+count++;
+cout <<"Nr. de trenuri la ora anumita: "<< count;
+}
+
+}
 }
 
 int Stergere(int v[], int n)
@@ -257,5 +262,6 @@ for(i=0; i<n; i++)
 v[i] = v[i+1];
 afisare_vector(v, n);
 return 1;
+
 
 }

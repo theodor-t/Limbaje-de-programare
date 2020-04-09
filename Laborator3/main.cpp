@@ -258,5 +258,4 @@ v[i] = v[i+1];
 afisare_vector(v, n);
 return 1;
 
-
 }

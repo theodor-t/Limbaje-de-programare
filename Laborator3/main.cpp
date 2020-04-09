@@ -18,7 +18,7 @@ int Rotire_Dreapta(int v[],int n);
 int Inserare(int n, int v[], int k);
 int Stergere(int v[], int n);
 int Caracteristica(int v[], int n, int a, int b, int &count);
-int onRoute(int v[], int n);
+void onRoute(int v[], int n,int value);
 int main(){
 
     int key, n, aux, k, a, b, el;
@@ -120,7 +120,7 @@ int main(){
             afisare_vector(v, n);
             cout << "Dati valoare de determinare a trenurilor la ora anumita" << endl;
             cin >> value;
-            onRoute(v, n);
+            onRoute(v, n, value);
             getch();
         break;
     }
@@ -242,15 +242,14 @@ v[0] = k;
 afisare_vector(v, n);
 return 1;
 }
-int onRoute(int v[], int n){
-int count,ora;
+void onRoute(int v[], int n,int value){
+int count=0;
 for (int i = 0; i < n; i++) {
-if (v[i] == ora) {
+if (v[i] == value) {
 count++;
-cout <<"Nr. de trenuri la ora anumita: "<< count;
 }
-
 }
+cout<<"Nr. de trenuri la ora  " << value <<" este: " <<count;
 }
 
 int Stergere(int v[], int n)

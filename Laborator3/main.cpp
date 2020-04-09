@@ -18,7 +18,7 @@ int Rotire_Dreapta(int v[],int n);
 int Inserare(int n, int v[], int k);
 int Stergere(int v[], int n);
 int Caracteristica(int v[], int n, int a, int b, int &count);
-void onRoute(int v[], int n);
+int onRoute(int v[], int n);
 int main(){
 
     int key, n, aux, k, a, b, el;
@@ -242,7 +242,7 @@ v[0] = k;
 afisare_vector(v, n);
 return 1;
 }
-void onRoute(int v[], int n){
+int onRoute(int v[], int n){
 int count,ora;
 for (int i = 0; i < n; i++) {
 if (v[i] == ora) {

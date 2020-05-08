@@ -36,7 +36,7 @@ cout << "3. De adaugat o coloana cu ora minima\n";
 cout << "4. De aranjat matricea dupa coloana adaugata\n";
 cout << "5. De generat o matrice cu conditia indicata:\n";
 cout << "\t|0  2   4|" <<endl;
-cout << "\t|6  8 10|" <<endl;
+cout << "\t|6  8  10|" <<endl;
 cout << "\t|12 14 16|\n" <<endl;
 cout << "0.Exit\n\n";
 key = getch();

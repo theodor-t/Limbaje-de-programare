@@ -35,9 +35,9 @@ cout << "2. De interschimbat 2 coloane in matrice\n";
 cout << "3. De adaugat o coloana cu ora minima\n";
 cout << "4. De aranjat matricea dupa coloana adaugata\n";
 cout << "5. De generat o matrice cu conditia indicata:\n";
-cout << "\t|2  4   6|" <<endl;
-cout << "\t|8  10 12|" <<endl;
-cout << "\t|14 16 18|\n" <<endl;
+cout << "\t|0  2   4|" <<endl;
+cout << "\t|6  8 10|" <<endl;
+cout << "\t|12 14 16|\n" <<endl;
 cout << "0.Exit\n\n";
 key = getch();
 system("cls");
@@ -363,7 +363,7 @@ matrixOutput(matrix, row, col);
 }
 
 void generare(int matrix[NMAX][NMAX], int row, int col){
-int value = 0;
+int value = -2;
 	for ( int i = 0; i < row; i++ ) {
 		for ( int j = 0; j < col; j++ ) {
 			value += 2;

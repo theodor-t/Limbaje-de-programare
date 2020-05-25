@@ -1,0 +1,8 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\User\Desktop\Labka5_Tudor\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(101,7): warning C4101: 'c': unreferenced local variable
+C:\Users\User\Desktop\Labka5_Tudor\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(100,9): warning C4101: 'i': unreferenced local variable
+C:\Users\User\Desktop\Labka5_Tudor\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(114,9): warning C4101: 'i': unreferenced local variable
+C:\Users\User\Desktop\Labka5_Tudor\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(126,9): warning C4101: 'i': unreferenced local variable
+C:\Users\User\Desktop\Labka5_Tudor\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(152,9): warning C4101: 'i': unreferenced local variable
+C:\Users\User\Desktop\Labka5_Tudor\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(165,9): warning C4101: 'i': unreferenced local variable
+  ConsoleApplication1.vcxproj -> C:\Users\User\Desktop\Labka5_Tudor\ConsoleApplication1\Debug\ConsoleApplication1.exe

@@ -1,14 +1,16 @@
 ﻿#include <iostream>
 #include <string>
 #include <fstream>
+#include <conio.h>
+#include <stdio.h>
+#include <locale.h>
 using namespace std;
-
 int main()
 {
     int a;
     string str;
     string path = "myFile.txt";
-   /* ofstream fout;
+    ofstream fout;
     
     fout.open(path,ofstream::app);
     if (!fout.is_open())
@@ -27,7 +29,6 @@ int main()
         
     }
     fout.close();
-    */
 
     ifstream fin;
     fin.open(path);
@@ -43,10 +44,10 @@ int main()
         {
             str = "";
             getline(fin, str);
-            cout << str <<endl;
+            cout << str << endl;
         }
+        fin.close();
     }
-    fin.close();
     return 0;
 }
 

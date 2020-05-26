@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     int a;
+    char ch;
     string path = "myFile.txt";
    /* ofstream fout;
     
@@ -37,7 +38,6 @@ int main()
     else
     {
         cout << "Fisierul a fost deschis cu succes!" << endl;
-        char ch;
         while(fin.get(ch))
         {
             cout << ch;

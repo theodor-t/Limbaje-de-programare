@@ -7,7 +7,7 @@
 using namespace std;
 int main()
 {
-    int a;
+    string a;
     string str;
     string path = "myFile.txt";
     ofstream fout;
